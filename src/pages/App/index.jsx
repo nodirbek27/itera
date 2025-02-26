@@ -1,7 +1,15 @@
+import Navbar from "../../components/Navbar"
+import HeroSection from "../../components/Hero"
+import Services from "../../components/Services"
+import Contact from "../../components/Contact"
+
 const App = () => {
   return (
     <div>
-      <h2 className="text-xl text-center">ITera</h2>
+      <Navbar />
+      <HeroSection />
+      <Services />
+      <Contact />
     </div>
   );
 };
