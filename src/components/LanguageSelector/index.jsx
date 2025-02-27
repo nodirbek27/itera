@@ -16,7 +16,7 @@ const LanguageSelector = () => {
   const langRef = useRef(null);
 
   useEffect(() => {
-    const savedLang = localStorage.getItem("lang") || "uz";
+    const savedLang = localStorage.getItem("lang") || "en";
     i18n.changeLanguage(savedLang);
     setCurrentLang(savedLang);
   }, []);
