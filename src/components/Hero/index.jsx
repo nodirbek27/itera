@@ -1,4 +1,5 @@
-import heroImg from "../../assets/images/hero.webp";
+import heroImg from "../../assets/images/hero1.webp";
+import { ContactButton, CallButton } from "./styled.js";
 
 const HeroSection = () => {
   return (
@@ -13,12 +14,21 @@ const HeroSection = () => {
         Itera – biznesingizni rivojlantirish uchun sifatli IT xizmatlarini
         taqdim etuvchi kompaniya.
       </p>
-      <a
-        href="#contact"
-        className="mt-6 bg-blue-600 px-6 py-3 rounded-lg text-white text-lg font-semibold hover:bg-blue-700"
-      >
-        Biz bilan bog‘laning
-      </a>
+      <div className="flex items-center gap-3 mt-6">
+        <ContactButton
+          href="#contact"
+          className=""
+        >
+          Bog`lanish
+          
+        </ContactButton>
+        <CallButton
+          href="#contact"
+          className=""
+        >
+          Qo`ng`iroq
+        </CallButton>
+      </div>
     </header>
   );
 };
