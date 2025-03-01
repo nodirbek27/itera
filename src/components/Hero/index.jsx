@@ -1,4 +1,4 @@
-import heroImg from "../../assets/images/hero1.webp";
+import heroImg from "../../assets/images/itera.webp";
 import { ContactButton, CallButton } from "./styled.js";
 
 const HeroSection = () => {
